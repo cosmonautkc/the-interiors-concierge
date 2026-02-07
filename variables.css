@@ -1,0 +1,17 @@
+:root {
+  --brown-900: hsl(17, 51%, 12%);
+  --cream-50: hsl(33, 38%, 94%);
+  --blue-300: hsl(202, 60%, 79%);
+
+  --font-main: "Manrope", Arial, Helvetica, sans-serif;
+  --font-accent: "Libre Franklin", Arial, Helvetica, sans-serif;
+
+  --text-body: 1rem;
+  --text-md: 1.5rem;
+
+  --sp-50: 0.5rem;
+  --sp-100: 1rem;
+  --sp-120: 1.5rem;
+  --sp-200: 2rem;
+  --sp-300: 3rem;
+}
