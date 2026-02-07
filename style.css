@@ -77,7 +77,6 @@ main {
 .hero-img {
   width: 100%;
   max-width: 36rem;
-  border-radius: 24px 24px 0 0;
   object-fit: cover;
 }
 
@@ -97,12 +96,12 @@ main {
   font-size: clamp(1.25rem, 2.8vw, 2.25rem);
   font-weight: 600;
   white-space: nowrap;
-  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 h2 {
   font-weight: 400;
-  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  font-size: clamp(1.125rem, 2.5vw, 1.75rem);
   margin-bottom: 1rem;
 }
 
@@ -144,10 +143,6 @@ footer {
     order: 1;
   }
 
-  .hero-img {
-    border-radius: 24px;
-  }
-
   .right-col {
     text-align: left;
     display: flex;
@@ -162,12 +157,6 @@ footer {
   }
 }
 
-@media (min-width: 888px) {
-  .hero-img {
-    border-radius: 24px 24px 0 0;
-  }
-}
-
 .socials {
   text-decoration: none;
   color: inherit;
@@ -178,18 +167,8 @@ footer {
   color: var(--blue-300);
 }
 
-.top-bar--with-logo {
-  width: 100%;
+.top-bar {
   background-color: var(--blue-300);
+  height: 2.5rem;
   border-bottom: 1px solid var(--brown-900);
-  padding: 1.5rem 0 1.25rem;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2rem;
-}
-
-.tic-logo--bar {
-  width: 90%;
-  max-width: 30rem;
-  height: auto;
 }
