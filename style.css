@@ -182,7 +182,7 @@ footer {
   width: 100%;
   background-color: var(--blue-300);
   border-bottom: 1px solid var(--brown-900);
-  padding: 1.5rem 0;
+  padding: 1.5rem 0 1.25rem;
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
