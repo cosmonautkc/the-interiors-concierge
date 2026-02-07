@@ -27,3 +27,15 @@ textarea,
 select {
   font: inherit;
 }
+
+body {
+  background-color: var(--cream-50);
+  font-family: var(--font-main);
+  font-size: var(--text-body);
+  font-weight: 400;
+  color: var(--brown-900);
+}
+
+main {
+  min-height: 100vh;
+}
