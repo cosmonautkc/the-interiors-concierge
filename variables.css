@@ -7,11 +7,15 @@
   --font-accent: "Libre Franklin", Arial, Helvetica, sans-serif;
 
   --text-body: 1rem;
-  --text-md: 1.5rem;
+  --text-md: 1.25rem;
 
   --sp-50: 0.5rem;
+  --sp-75: 0.75rem;
   --sp-100: 1rem;
+  --sp-125: 1.25rem;
   --sp-150: 1.5rem;
   --sp-200: 2rem;
   --sp-300: 3rem;
+  --sp-400: 4rem;
+  --sp-500: 5rem;
 }
