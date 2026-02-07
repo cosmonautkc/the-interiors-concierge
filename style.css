@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Adobe Jenson Pro Display";
+  src: url("fonts/AdobeJensonPro-Display.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 *,
 *::before,
 *::after {
@@ -89,6 +97,7 @@ main {
   font-size: clamp(1.25rem, 2.8vw, 2.25rem);
   font-weight: 600;
   white-space: nowrap;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -167,4 +176,20 @@ footer {
 
 .socials:hover .social-text {
   color: var(--blue-300);
+}
+
+.top-bar--with-logo {
+  width: 100%;
+  background-color: var(--blue-300);
+  border-bottom: 1px solid var(--brown-900);
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.tic-logo--bar {
+  width: 90%;
+  max-width: 30rem;
+  height: auto;
 }
