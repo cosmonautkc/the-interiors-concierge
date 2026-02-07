@@ -158,3 +158,13 @@ footer {
     border-radius: 24px 24px 0 0;
   }
 }
+
+.socials {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.socials:hover .social-text {
+  color: var(--blue-300);
+}
